@@ -1,20 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta description name="jádecido" value="Jádecidotambém">
     <title>Portfólio Alura</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
-    <main>
-        <h1>Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1>
-        <p>Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-        <a href="https://www.instagram.com/"></a>
-        <a href="https://github.com/CamilaForlin"></a>
-        <img src="./src/imagem.png"
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu_link" href="index.html">Menu</a>
+            <a class="cabecalho__menu_link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            
+                <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1>
+                <p class="apresentacao__conteudo__paragrafo">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+            
+            
+            <h2 class="apresentacao__links_texto">Acesse minhas redes:</h2>
+
+            <div class="apresentacao__links">
+                <a 
+                class="apresentacao__links__link" href="https://www.instagram.com/">
+                <img src="./src/icons8-instagram-50 (1).png">
+                Instagram</a>
+                <a class="apresentacao__links__link" href="https://github.com/CamilaForlin">
+                    <img class="icon_github" src="./src/icons8-github-50 (1).png">Github
+                </a>
+                <a 
+                class="apresentacao__links__link" href="https://www.Linkedin.com/">
+                <img class="icon_linkedin" src="./src/icons8-linkedin-2-50.png">
+                Linkedin</a>
+                <a 
+                class="apresentacao__links__link" href="https://www.instagram.com/">
+                <img img src="./src/icons8-whatsapp-50 (1).png">
+                Whatsapp</a>
+            </div>   
+        </section>    
+       
+         <img src="./src/imagem.png" alt=""Foto em escala de cinza e alguns detalhes azul agua de uma garota mexendo feliz num notebook>
+
+                
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        Desenvolvido por Alura
+    </footer>
 </body>
 </html>
+
+
+
